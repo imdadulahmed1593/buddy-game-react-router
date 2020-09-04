@@ -1,0 +1,16 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.home__title {
+  text-align: center;
+  color: rgb(28, 136, 28);
+  margin: 20px 0px;
+}
+.home__headerBtn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}

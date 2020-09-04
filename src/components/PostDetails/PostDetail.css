@@ -1,0 +1,35 @@
+.postDetail {
+  width: 60%;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+}
+.postDetail__info {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 20px;
+}
+.postDetail__info > h2 {
+  margin-bottom: 10px;
+}
+.postDetail__comments {
+  width: 90%;
+  margin: 20px auto;
+}
+.postDetail__comment {
+  margin: 10px 0px;
+  border-bottom: 1px solid lightgray;
+}
+.postDetail__commentPerson {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+.postDetail__commentImg {
+  margin-right: 10px;
+}
+.postDetail__commentBody {
+  margin-bottom: 20px;
+}
